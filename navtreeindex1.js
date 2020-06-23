@@ -18,8 +18,8 @@ var NAVTREEINDEX1 =
 "d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[5,2,4],
 "d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73":[8,0,9,1,1],
 "d5/d4c/group__sorting.html#ga460c61cd948203b4816bef2accb3fc73":[5,2,2],
-"d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[5,2,3],
 "d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[8,0,9,1,2],
+"d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[5,2,3],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[5,2,1],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,9,1,0],
 "d5/d67/bayes__theorem_8cpp.html":[8,0,7,1],
@@ -44,6 +44,7 @@ var NAVTREEINDEX1 =
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md28":[2,14],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md29":[2,15],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md30":[2,16],
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md31":[2,17],
 "d5/d91/namespacesorting.html":[6,0,2],
 "d5/da1/structnode.html":[7,0,21],
 "d5/da1/structnode.html#a063635bc4e984d971d1efeb4230b0515":[7,0,21,6],
@@ -90,8 +91,8 @@ var NAVTREEINDEX1 =
 "d6/d60/group__ode.html#ga36ff0710861ca39d957046c0b09b2985":[5,1,2],
 "d6/d60/group__ode.html#ga3874d294ab00fe9ce8731c5b7991a089":[8,0,5,8,4],
 "d6/d60/group__ode.html#ga3874d294ab00fe9ce8731c5b7991a089":[5,1,4],
-"d6/d60/group__ode.html#ga827bf009831ddc477c5fa8891d5cb35f":[8,0,5,8,5],
 "d6/d60/group__ode.html#ga827bf009831ddc477c5fa8891d5cb35f":[5,1,5],
+"d6/d60/group__ode.html#ga827bf009831ddc477c5fa8891d5cb35f":[8,0,5,8,5],
 "d6/d60/group__ode.html#ga8c319db420c3d97a83e9dcca803b6812":[8,0,5,7,3],
 "d6/d60/group__ode.html#ga8c319db420c3d97a83e9dcca803b6812":[5,1,3],
 "d6/d60/group__ode.html#gaa197c6b7085ac9ea71abc4c063e6f52f":[8,0,5,6,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d8/dee/avltree_8cpp.html#ae4a66d8b0c2b0d626aea45977e358c83":[8,0,1,1,5],
 "d8/dee/avltree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,1,1,9],
 "d8/dee/avltree_8cpp.html#aed58f3cea338a9d7bdcb9a4cfc6c7a78":[8,0,1,1,7],
-"d8/dee/avltree_8cpp.html#af4aeda155dbe167f1c1cf38cb65bf324":[8,0,1,1,1],
-"d9/d00/factorial_8cpp.html":[8,0,4,5]
+"d8/dee/avltree_8cpp.html#af4aeda155dbe167f1c1cf38cb65bf324":[8,0,1,1,1]
 };

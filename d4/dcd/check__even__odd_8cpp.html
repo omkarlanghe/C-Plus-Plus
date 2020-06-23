@@ -99,8 +99,8 @@ $(document).ready(function(){initNavTree('d4/dcd/check__even__odd_8cpp.html','..
 
 <p>The program illustrates the use of bitwise &amp; (AND) operator to check if given number is odd or even. To know more about bitwise operators, refer the given link: <a href="https://en.wikipedia.org/wiki/Bitwise_operation#Bitwise_operators">https://en.wikipedia.org/wiki/Bitwise_operation#Bitwise_operators</a>.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;cassert&gt;</code><br />
+<div class="textblock"><code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for check_even_odd.cpp:</div>
 <div class="dyncontent">
@@ -161,12 +161,12 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>if number is even, it returns @ true, else it returns @ false. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                        {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> ((num &amp; 1) == 0) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> (<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> (<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> ((num &amp; 1) == 0) {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> (<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> (<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -185,25 +185,22 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;           {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> num;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number to check for even or odd : &quot;</span> &lt;&lt;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; num;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> result = <a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(num);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span> (result) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The given number &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is even.&quot;</span> &lt;&lt;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The given number &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is odd.&quot;</span> &lt;&lt;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    assert(<a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(4) == <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    assert(<a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(7) == <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;           {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> num;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number to check for even or odd : &quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; num;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">bool</span> result = <a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(num);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span> (result) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The given number &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is even.&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The given number &quot;</span> &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot; is odd.&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    assert(<a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(4) == <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    assert(<a class="code" href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a>(7) == <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -310,6 +307,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="ahash__search_8cpp_html_a566eaf0ffafd50bc61e644561fd27001"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a></div><div class="ttdeci">int h(int key)</div><div class="ttdef"><b>Definition:</b> hash_search.cpp:45</div></div>
 <div class="ttc" id="anamespacesorting_html_ae97f4dd815654c4682f564afd718e824"><div class="ttname"><a href="../../d5/d91/namespacesorting.html#ae97f4dd815654c4682f564afd718e824">sorting::non_recursive_merge_sort</a></div><div class="ttdeci">void non_recursive_merge_sort(const Iterator first, const Iterator last)</div><div class="ttdoc">bottom-up merge sort which sorts elements in a non-decreasing order</div><div class="ttdef"><b>Definition:</b> non_recursive_merge_sort.cpp:86</div></div>
 <div class="ttc" id="abinary__search_8cpp_html_abf9e6b7e6f15df4b525a2e7705ba3089"><div class="ttname"><a href="../../df/dd5/binary__search_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089">main</a></div><div class="ttdeci">int main(int argc, char const *argv[])</div><div class="ttdef"><b>Definition:</b> binary_search.cpp:31</div></div>
+<div class="ttc" id="asub__array__with__given__sum_8cpp_html_a22d24dcfdf4233e63bf45157bec170ea"><div class="ttname"><a href="../../dc/de7/sub__array__with__given__sum_8cpp.html#a22d24dcfdf4233e63bf45157bec170ea">contiguous_sub_array</a></div><div class="ttdeci">void contiguous_sub_array(T *arr, T size, T orignal_sum)</div><div class="ttdef"><b>Definition:</b> sub_array_with_given_sum.cpp:39</div></div>
 <div class="ttc" id="amatrix__exponentiation_8cpp_html_afcf0d19607cd0edd8ae333d2b9c220c0"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#afcf0d19607cd0edd8ae333d2b9c220c0">k</a></div><div class="ttdeci">ll k</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:48</div></div>
 <div class="ttc" id="astructtower_html"><div class="ttname"><a href="../../d2/d2c/structtower.html">tower</a></div><div class="ttdef"><b>Definition:</b> tower_of_hanoi.cpp:11</div></div>
 <div class="ttc" id="aternary__search_8cpp_html_a23ad617bfce1e7cf4591059c85c1a027"><div class="ttname"><a href="../../dc/dfe/ternary__search_8cpp.html#a23ad617bfce1e7cf4591059c85c1a027">_target</a></div><div class="ttdeci">#define _target</div><div class="ttdef"><b>Definition:</b> ternary_search.cpp:27</div></div>
@@ -323,7 +321,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="asmallest__circle_8cpp_html_a3cbebd6f4d2cdf227663c67fe41ba12a"><div class="ttname"><a href="../../d0/d01/smallest__circle_8cpp.html#a3cbebd6f4d2cdf227663c67fe41ba12a">LenghtLine</a></div><div class="ttdeci">double LenghtLine(const Point &amp;A, const Point &amp;B)</div><div class="ttdef"><b>Definition:</b> smallest_circle.cpp:37</div></div>
 <div class="ttc" id="aqsort_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/qsort.html">std::qsort</a></div><div class="ttdeci">T qsort(T... args)</div></div>
 <div class="ttc" id="ato_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a></div><div class="ttdeci">T to_string(T... args)</div></div>
-<div class="ttc" id="acheck__even__odd_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d4/dcd/check__even__odd_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> check_even_odd.cpp:53</div></div>
+<div class="ttc" id="acheck__even__odd_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d4/dcd/check__even__odd_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> check_even_odd.cpp:58</div></div>
 <div class="ttc" id="anamespacestring__search_html_a26a58225ce7d3fa9d4c2f5349a65ed93"><div class="ttname"><a href="../../d9/d03/namespacestring__search.html#a26a58225ce7d3fa9d4c2f5349a65ed93">string_search::kmp</a></div><div class="ttdeci">bool kmp(const std::string &amp;pattern, const std::string &amp;text)</div><div class="ttdef"><b>Definition:</b> knuth_morris_pratt.cpp:56</div></div>
 <div class="ttc" id="apoisson__dist_8cpp_html_ad9c9e74079278ca10e3b97a8d5391c9a"><div class="ttname"><a href="../../d9/d24/poisson__dist_8cpp.html#ad9c9e74079278ca10e3b97a8d5391c9a">poisson_range_successes</a></div><div class="ttdeci">double poisson_range_successes(double expected, double lower, double upper)</div><div class="ttdef"><b>Definition:</b> poisson_dist.cpp:54</div></div>
 <div class="ttc" id="atower__of__hanoi_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../db/d3c/tower__of__hanoi_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> tower_of_hanoi.cpp:65</div></div>
@@ -331,14 +329,13 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="amatrix__exponentiation_8cpp_html_ae1d1ec9482079231e898236e2b23c9ba"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div><div class="ttdeci">#define ll</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:33</div></div>
 <div class="ttc" id="avalarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/valarray.html">std::valarray</a></div><div class="ttdoc">STL class.</div></div>
 <div class="ttc" id="abinomial__dist_8cpp_html_af09e51f513cee647d41192ab0a872cdc"><div class="ttname"><a href="../../d6/db0/binomial__dist_8cpp.html#af09e51f513cee647d41192ab0a872cdc">binomial_standard_deviation</a></div><div class="ttdeci">double binomial_standard_deviation(double n, double p)</div><div class="ttdef"><b>Definition:</b> binomial_dist.cpp:36</div></div>
-<div class="ttc" id="asub__array__with__given__sum_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../dc/de7/sub__array__with__given__sum_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> sub_array_with_given_sum.cpp:66</div></div>
+<div class="ttc" id="asub__array__with__given__sum_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../dc/de7/sub__array__with__given__sum_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> sub_array_with_given_sum.cpp:69</div></div>
 <div class="ttc" id="asmallest__circle_8cpp_html_a94682a4a70d5906857ca09de5b9fb2cc"><div class="ttname"><a href="../../d0/d01/smallest__circle_8cpp.html#a94682a4a70d5906857ca09de5b9fb2cc">TriangleArea</a></div><div class="ttdeci">double TriangleArea(const Point &amp;A, const Point &amp;B, const Point &amp;C)</div><div class="ttdef"><b>Definition:</b> smallest_circle.cpp:54</div></div>
 <div class="ttc" id="abrute__force__string__searching_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d3/d7d/brute__force__string__searching_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> brute_force_string_searching.cpp:47</div></div>
 <div class="ttc" id="abinomial__dist_8cpp_html_a19ae0a6a2bd200fd1eb0e31b2bf4cc76"><div class="ttname"><a href="../../d6/db0/binomial__dist_8cpp.html#a19ae0a6a2bd200fd1eb0e31b2bf4cc76">binomial_x_successes</a></div><div class="ttdeci">double binomial_x_successes(double n, double p, double x)</div><div class="ttdef"><b>Definition:</b> binomial_dist.cpp:65</div></div>
 <div class="ttc" id="aqr__eigen__values_8cpp_html_a0283886819c7c140a023582b7269e2d0"><div class="ttname"><a href="../../de/d75/qr__eigen__values_8cpp.html#a0283886819c7c140a023582b7269e2d0">test2</a></div><div class="ttdeci">void test2()</div><div class="ttdef"><b>Definition:</b> qr_eigen_values.cpp:210</div></div>
 <div class="ttc" id="aremove_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove</a></div><div class="ttdeci">T remove(T... args)</div></div>
 <div class="ttc" id="amatrix__exponentiation_8cpp_html_a600eaf353befc174637855795f12d258"><div class="ttname"><a href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a></div><div class="ttdeci">#define endl</div><div class="ttdef"><b>Definition:</b> matrix_exponentiation.cpp:36</div></div>
-<div class="ttc" id="asub__array__with__given__sum_8cpp_html_ac6f8087055bf19e52a31692cb054c494"><div class="ttname"><a href="../../dc/de7/sub__array__with__given__sum_8cpp.html#ac6f8087055bf19e52a31692cb054c494">continues_sub_array</a></div><div class="ttdeci">void continues_sub_array(T *arr, T size, T orignal_sum)</div><div class="ttdef"><b>Definition:</b> sub_array_with_given_sum.cpp:36</div></div>
 <div class="ttc" id="ahash__search_8cpp_html_ad6fcd983304f85afa199d97a9b0ca9f6"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#ad6fcd983304f85afa199d97a9b0ca9f6">link</a></div><div class="ttdeci">struct list * link</div><div class="ttdoc">pointer to nodes</div></div>
 <div class="ttc" id="amedian__search_8cpp_html_a3a66390d0e407dce4fcbf63a169c6c8f"><div class="ttname"><a href="../../d9/d69/median__search_8cpp.html#a3a66390d0e407dce4fcbf63a169c6c8f">comp</a></div><div class="ttdeci">void comp(X x, std::vector&lt; int &gt; *s1, std::vector&lt; int &gt; *s2, std::vector&lt; int &gt; *s3)</div><div class="ttdef"><b>Definition:</b> median_search.cpp:17</div></div>
 <div class="ttc" id="aspiral__print_8cpp_html_a850d3f55e1a8d227176cdcc67352c197"><div class="ttname"><a href="../../db/d07/spiral__print_8cpp.html#a850d3f55e1a8d227176cdcc67352c197">spiralPrint</a></div><div class="ttdeci">void spiralPrint(int **a, int r, int c)</div><div class="ttdef"><b>Definition:</b> spiral_print.cpp:29</div></div>
@@ -426,7 +423,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="aternary__search_8cpp_html_a7f7d866eccdabe51bb16818a792618b1"><div class="ttname"><a href="../../dc/dfe/ternary__search_8cpp.html#a7f7d866eccdabe51bb16818a792618b1">get_input</a></div><div class="ttdeci">void get_input()</div><div class="ttdef"><b>Definition:</b> ternary_search.cpp:36</div></div>
 <div class="ttc" id="asmallest__circle_8cpp_html_aee6d48762c1dfb9f14627927f0c16fad"><div class="ttname"><a href="../../d0/d01/smallest__circle_8cpp.html#aee6d48762c1dfb9f14627927f0c16fad">PointInCircle</a></div><div class="ttdeci">bool PointInCircle(const std::vector&lt; Point &gt; &amp;P, const Point &amp;Center, double R)</div><div class="ttdef"><b>Definition:</b> smallest_circle.cpp:72</div></div>
 <div class="ttc" id="agetchar_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/c/getchar.html">std::getchar</a></div><div class="ttdeci">T getchar(T... args)</div></div>
-<div class="ttc" id="acheck__even__odd_8cpp_html_a47d35625fad361b7efeefff14aa8b9af"><div class="ttname"><a href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a></div><div class="ttdeci">bool is_odd_even(T num)</div><div class="ttdef"><b>Definition:</b> check_even_odd.cpp:43</div></div>
+<div class="ttc" id="acheck__even__odd_8cpp_html_a47d35625fad361b7efeefff14aa8b9af"><div class="ttname"><a href="../../d4/dcd/check__even__odd_8cpp.html#a47d35625fad361b7efeefff14aa8b9af">is_odd_even</a></div><div class="ttdeci">bool is_odd_even(T num)</div><div class="ttdef"><b>Definition:</b> check_even_odd.cpp:48</div></div>
 <div class="ttc" id="astructlist_html"><div class="ttname"><a href="../../d8/d10/structlist.html">list</a></div><div class="ttdef"><b>Definition:</b> list_array.cpp:4</div></div>
 <div class="ttc" id="amemset_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/byte/memset.html">std::memset</a></div><div class="ttdeci">T memset(T... args)</div></div>
 <div class="ttc" id="abinomial__dist_8cpp_html_acd4dd4558031e4c5d045c801f73d8861"><div class="ttname"><a href="../../d6/db0/binomial__dist_8cpp.html#acd4dd4558031e4c5d045c801f73d8861">binomial_variance</a></div><div class="ttdeci">double binomial_variance(double n, double p)</div><div class="ttdef"><b>Definition:</b> binomial_dist.cpp:29</div></div>
@@ -439,7 +436,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d5f22acbf63e61950c962554daf86139.html">bitwise_operators</a></li><li class="navelem"><a class="el" href="../../d4/dcd/check__even__odd_8cpp.html">check_even_odd.cpp</a></li>
-    <li class="footer">Generated on Sun Jun 21 2020 08:15:30 for Algorithms_in_C++ by
+    <li class="footer">Generated on Tue Jun 23 2020 12:30:13 for Algorithms_in_C++ by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

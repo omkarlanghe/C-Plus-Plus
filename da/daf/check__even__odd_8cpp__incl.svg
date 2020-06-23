@@ -13,9 +13,9 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="The program illustrates the use of bitwise &amp; (AND) operator to check if given number is odd or even....">
-<polygon fill="#bfbfbf" stroke="black" points="1,-56.5 1,-86.5 123,-86.5 123,-56.5 1,-56.5"/>
-<text text-anchor="start" x="9" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">bitwise_operators/check</text>
-<text text-anchor="middle" x="62" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_even_odd.cpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-56.5 0,-86.5 122,-86.5 122,-56.5 0,-56.5"/>
+<text text-anchor="start" x="8" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">bitwise_operators/check</text>
+<text text-anchor="middle" x="61" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_even_odd.cpp</text>
 </a>
 </g>
 </g>
@@ -23,31 +23,31 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 54,-19.5 54,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="27" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">iostream</text>
+<polygon fill="white" stroke="#bfbfbf" points="1.5,-0.5 1.5,-19.5 50.5,-19.5 50.5,-0.5 1.5,-0.5"/>
+<text text-anchor="middle" x="26" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">cassert</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M53.71,-56.4C48.78,-48.02 42.49,-37.33 37.25,-28.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="40.18,-26.5 32.09,-19.66 34.15,-30.05 40.18,-26.5"/>
+<path fill="none" stroke="midnightblue" d="M52.71,-56.4C47.78,-48.02 41.49,-37.33 36.25,-28.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="39.18,-26.5 31.09,-19.66 33.15,-30.05 39.18,-26.5"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="72.5,-0.5 72.5,-19.5 121.5,-19.5 121.5,-0.5 72.5,-0.5"/>
-<text text-anchor="middle" x="97" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">cassert</text>
+<polygon fill="white" stroke="#bfbfbf" points="69,-0.5 69,-19.5 123,-19.5 123,-0.5 69,-0.5"/>
+<text text-anchor="middle" x="96" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">iostream</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M70.29,-56.4C75.22,-48.02 81.51,-37.33 86.75,-28.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="89.85,-30.05 91.91,-19.66 83.82,-26.5 89.85,-30.05"/>
+<path fill="none" stroke="midnightblue" d="M69.29,-56.4C74.22,-48.02 80.51,-37.33 85.75,-28.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="88.85,-30.05 90.91,-19.66 82.82,-26.5 88.85,-30.05"/>
 </g>
 </g>
 </svg>

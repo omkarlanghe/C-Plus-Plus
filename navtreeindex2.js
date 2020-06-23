@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d9/d00/factorial_8cpp.html":[8,0,4,5],
 "d9/d00/factorial_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,4,5,1],
 "d9/d00/factorial_8cpp.html#ae9945c15826a9c1b5c141db314b7f8b4":[8,0,4,5,0],
 "d9/d02/linear__search_8cpp.html":[8,0,8,6],
@@ -34,14 +35,14 @@ var NAVTREEINDEX2 =
 "d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[8,0,3,2,0],
 "d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[5,0,6],
 "d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[8,0,3,1,7],
-"d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[8,0,3,2,5],
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[5,0,7],
+"d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[8,0,3,2,5],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[5,0,5],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[8,0,3,1,4],
 "d9/d66/group__machine__learning.html#gacd517c6f195c75b9dd0f3aad65326f3b":[8,0,3,0,1],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,3,2,1],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[5,0,4],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,3,1,2],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,3,2,1],
 "d9/d69/median__search_8cpp.html":[8,0,8,7],
 "d9/d69/median__search_8cpp.html#a3a66390d0e407dce4fcbf63a169c6c8f":[8,0,8,7,1],
 "d9/d69/median__search_8cpp.html#a55bfdcfe7613d75fb48ec99c7bf4dd5e":[8,0,8,7,0],
@@ -223,7 +224,7 @@ var NAVTREEINDEX2 =
 "dc/dc5/paranthesis__matching_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,6,8,1],
 "dc/dc5/paranthesis__matching_8cpp.html#af93f4f37fc2ad9c37af4a715423b110c":[8,0,6,8,6],
 "dc/de7/sub__array__with__given__sum_8cpp.html":[8,0,6,15],
-"dc/de7/sub__array__with__given__sum_8cpp.html#ac6f8087055bf19e52a31692cb054c494":[8,0,6,15,0],
+"dc/de7/sub__array__with__given__sum_8cpp.html#a22d24dcfdf4233e63bf45157bec170ea":[8,0,6,15,0],
 "dc/de7/sub__array__with__given__sum_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,6,15,1],
 "dc/dfe/ternary__search_8cpp.html":[8,0,8,8],
 "dc/dfe/ternary__search_8cpp.html#a23ad617bfce1e7cf4591059c85c1a027":[8,0,8,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "dd/d2f/class_trie.html#a411e77126930a0942dd7b65e96b15206":[7,0,32,6],
 "dd/d2f/class_trie.html#a58b359fad33ca0064bd75a0d41a7b66d":[7,0,32,8],
 "dd/d2f/class_trie.html#a6af57e9f25d0d0a2d59eea5a4a802908":[7,0,32,1],
-"dd/d2f/class_trie.html#a6d10eb1669453395d1900ebd401954fb":[7,0,32,2],
-"dd/d2f/class_trie.html#a734a08b52b8ad73bdd1f36ae8348056e":[7,0,32,4]
+"dd/d2f/class_trie.html#a6d10eb1669453395d1900ebd401954fb":[7,0,32,2]
 };
