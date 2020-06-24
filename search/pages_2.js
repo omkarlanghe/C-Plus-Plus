@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['prime_20factorization_3952',['Prime factorization',['../d7/d7f/section.html',1,'']]]
+  ['prime_20factorization_3948',['Prime factorization',['../d7/d7f/section.html',1,'']]]
 ];
