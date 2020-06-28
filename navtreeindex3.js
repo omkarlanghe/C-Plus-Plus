@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"dd/d2f/class_trie.html#a95216ffc56cb9f8cede982cecb872af4":[7,0,32,5],
 "dd/d2f/class_trie.html#afd8b79959009b554e98ea7128b2886f2":[7,0,32,3],
 "dd/d3b/struct_entry.html":[7,0,9],
 "dd/d3b/struct_entry.html#acef39096ad1bc616755a4c120a713cea":[7,0,9,3],
@@ -131,8 +130,8 @@ var NAVTREEINDEX3 =
 "functions_func.html":[7,2,1],
 "functions_rela.html":[7,2,3],
 "functions_vars.html":[7,2,2],
-"globals.html":[8,1,0,0],
 "globals.html":[8,1,0],
+"globals.html":[8,1,0,0],
 "globals_a.html":[8,1,0,1],
 "globals_b.html":[8,1,0,2],
 "globals_c.html":[8,1,0,3],
@@ -179,8 +178,8 @@ var NAVTREEINDEX3 =
 "globals_vars.html":[8,1,2],
 "index.html":[0],
 "index.html":[],
-"index.html#autotoc_md34":[0],
-"index.html#autotoc_md35":[1],
+"index.html#autotoc_md33":[0],
+"index.html#autotoc_md34":[1],
 "modules.html":[5],
 "namespacemembers.html":[6,1,0],
 "namespacemembers_func.html":[6,1,1],
